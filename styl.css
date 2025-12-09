@@ -1,42 +1,46 @@
-html{
+html {
     font-size: 10px;
 }
 
-body{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size:16px;
+body {
+    font-family: Arial;
+    font-size: 1.6rem;
 }
 
-.layout{
+.layout {
     width: 100%;
     min-height: 100%;
     position: absolute;
 
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
 }
-.layout_main{
-    width: 50rem;
 
+.layout_main {
+    width: 50rem;
 }
 
-.main_input{
-    display: black;
+.main_input {
+    display: block;
     width: 100%;
     padding: 1.5rem;
-    border-radius: o.5rem;
-    border: 2px solid #ccc;
+    border-radius: 0.5rem;
+    border: 2px solid #000;
     outline: none;
     margin-bottom: 3rem;
+    font-size: 1.6rem;
 }
- .main_text{
-    text-align:justify;
-    line-height: 1.8;
- }
 
- .text_patos{
-    background-color: blue;
-    border-radius: 0.5rem;
-    padding: 0.4rem;
- }
+.main_text {
+    text-align: justify;
+    line-height: 1.8;
+    font-size: 1.6rem;
+}
+
+.tetx_search {
+    background-color: yellow;
+    padding: 0.2rem;
+    border-radius: 0.3rem;
+}
